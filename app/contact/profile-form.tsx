@@ -26,6 +26,8 @@ import {
 import {Textarea} from "@/components/ui/textarea";
 import {Button} from "@/components/ui/button";
 import {toast} from "@/components/ui/use-toast";
+import * as emailjs from "emailjs-com";
+
 // import { toast } from "@/registry/new-york/hooks/use-toast"
 // import { Button } from "@/registry/new-york/ui/button"
 // import {

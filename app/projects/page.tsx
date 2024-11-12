@@ -58,7 +58,7 @@ export default function ProjectsPage() {
 				</div> */}
 
 				<h1 className="font-medium text-2xl mt-16 mb-8 tracking-tighter">
-					Hackathons
+					Expo
 				</h1>
 				<div className="prose prose-neutral dark:prose-invert">
 					<Markdown className="prose prose-neutral dark:prose-invert">

@@ -461,7 +461,7 @@ export const DATA = {
 		{href: "/", icon: HomeIcon, label: "Home"},
 		{href: "/about", icon: UserRound, label: "About"},
 		{href: "/projects", icon: Code, label: "Projects"},
-		// {href: "/contact", icon: NotebookPen, label: "Contact"},
+		// {href: "/contacts", icon: NotebookPen, label: "Contact"},
 	],
 
 	contact: {

@@ -9,7 +9,7 @@ import Image from "next/image";
 import Typewriter from "typewriter-effect";
 import {DATA, introdata} from "./data/porto";
 
-export function Badge(props: any) {
+function Badge(props: any) {
 	return (
 		<a
 			{...props}

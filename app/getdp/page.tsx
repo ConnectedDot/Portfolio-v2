@@ -94,7 +94,7 @@ const GraphicEditor = () => {
 
 				{/* Text Overlay */}
 
-				<div className="flex mt-28 md:mt-32">
+				<div className="flex mt-24 md:mt-32">
 					<div className="flex-1" style={{flex: 0.6}}>
 						<div className="flex flex-col items-center justify-center">
 							{image ?

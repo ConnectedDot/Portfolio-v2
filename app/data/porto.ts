@@ -5,6 +5,7 @@ import shepherds from "@/public/gifs/shepherds.gif";
 import gubtish from "@/public/gifs/gubtish.gif";
 import ap from "@/public/gifs/ap.gif";
 import gp from "@/public/gifs/gp.gif";
+import renewedge from "@/public/gifs/renewedge.gif";
 import type {Metadata} from "next";
 import {
 	Code,
@@ -68,6 +69,30 @@ export const portfolioItems: PortfolioItem[] = [
 		],
 		techstack: "React Native, Expo, Metro Bundler, Tailwind CSS, Node.js",
 		category: ["dashboard", "mobile-app", "web-app", "agriculture", "finance"],
+	},
+	{
+		id: "renew-edge",
+		title: "RenewEdge",
+		slug: "renewedge",
+		description:
+			"A renewable energy website to provide needed and valuable resources to sustainable and renewable energy resources.",
+		shortdescrips:
+			"A renewable energy website for harnessing power energy and more",
+		mediaurl: renewedge,
+		deployedlink: "https://renew-edge.vercel.app/",
+		githublink: "",
+		infoone:
+			"RenewEdge is at the forefront of the renewable energy revolution, where you can harness the power of the sun, wind, and other sustainable sources to create a cleaner, greener future. Our innovative solutions in solar energy, wind power, and electric vehicles are designed to reduce carbon footprints and promote environmental sustainability. With RenewEdge, you can seamlessly integrate renewable energy into your daily life, turning your vision of a sustainable world into reality. Let's explore the endless possibilities of renewable energy by discovering more about our cutting-edge technologies and solutions.",
+		infotwo:
+			"Our mission is to provide innovative renewable energy solutions that empower communities and protect the environment. We strive to reduce carbon footprints and promote sustainable living through our cutting-edge technology and dedicated team. Our vision is to lead the world in renewable energy solutions, creating a sustainable future for generations to come. We aim to be at the forefront of the green energy revolution, providing reliable and efficient energy solutions to our customers.",
+		role: "Front-End Developer",
+		iconLists: [
+			"/next-logo.svg",
+			"/typescript.svg",
+			"/tailwindcss.svg",
+		],
+		techstack: "Next JS, Shad UI, Tailwind CSS, ",
+		category: ["web-app","technology", "innovation", "energy"],
 	},
 	{
 		id: "kendra-lms",

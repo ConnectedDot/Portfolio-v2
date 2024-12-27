@@ -5,6 +5,8 @@ import shepherds from "@/public/gifs/shepherds.gif";
 import gubtish from "@/public/gifs/gubtish.gif";
 import ap from "@/public/gifs/ap.gif";
 import gp from "@/public/gifs/gp.gif";
+import izu from "@/public/gifs/izu.gif";
+
 import renewedge from "@/public/gifs/renewedge.gif";
 import type {Metadata} from "next";
 import {
@@ -35,6 +37,44 @@ export interface PortfolioItem {
 }
 
 export const portfolioItems: PortfolioItem[] = [
+	{
+		id: "izu-soft",
+		title: "izusoft Technologies",
+		slug: "izu",
+		shortdescrips:
+			"They specialize in cutting-edge training, consultation, and infrastructure services that drive growth and success.",
+		description:
+			"We offer extensive expertise through our proprietary framework called Business Driven Architecture. This framework empowers us to deliver comprehensive solutions in process and development, establishing the basis for our leadership across a wide range of Microsoft technologies. Our capabilities span from CRM and ERP to Low-code/No-code development, Azure cloud platform, security, as well as the implementation and maintenance of crucial IT solutions.",
+		mediaurl: izu,
+		deployedlink: "https://izusoft.vercel.app/",
+		githublink: "",
+
+		// links: [
+		// 	{
+		// 		type: "visit website",
+		// 		href: "https://eldoraui.site/",
+		// 		  icon: <SquareTerminal className="size-3" />,
+		// 	},
+		// ],
+
+		infoone:
+			"Innovative software solutions that empower businesses to streamline operations, enhance productivity, and achieve their goals efficiently. Discover how our solutions can transform your business today.",
+		infotwo:
+			"We Transform Businesses with Cutting-Edge Solutions",
+		role: "",
+		iconLists: [
+			"react-logo.svg",
+			"/express.svg",
+			"firebase.svg",
+			"next-logo.svg",
+			"/tailwindcss.svg",
+			"/typescript.svg",
+			"/react-logo.svg",
+			"/node.svg",
+		],
+		techstack: "React, NextJs, Tailwind CSS, Shadcn UI",
+		category: ["dashboard", "LAnding Page", "web-app", "technology", "Business"],
+	},
 	{
 		id: "cvd-mobile",
 		title: "Commodity Virtual Dashboard",

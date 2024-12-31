@@ -46,7 +46,7 @@ export const portfolioItems: PortfolioItem[] = [
 		description:
 			"We offer extensive expertise through our proprietary framework called Business Driven Architecture. This framework empowers us to deliver comprehensive solutions in process and development, establishing the basis for our leadership across a wide range of Microsoft technologies. Our capabilities span from CRM and ERP to Low-code/No-code development, Azure cloud platform, security, as well as the implementation and maintenance of crucial IT solutions.",
 		mediaurl: izu,
-		deployedlink: "https://izusoft.vercel.app/",
+		deployedlink: "https://www.izusoft.tech",
 		githublink: "",
 
 		// links: [

@@ -75,17 +75,17 @@ export const portfolioItems: PortfolioItem[] = [
 		techstack: "React, NextJs, Tailwind CSS, Shadcn UI",
 		category: ["dashboard", "LAnding Page", "web-app", "technology", "Business"],
 	},
-	{
-		id: "cvd-mobile",
-		title: "Commodity Virtual Dashboard",
-		slug: "cvd",
-		shortdescrips:
-			"A dashboard to manage commodity, suitable for agents and buyers",
-		description:
-			"A dashboard to manage commodity, suitable for agents and buyers, to display list of cash crops, locations, prices and analysis. This also displays market trends and market news as a means of updates.",
-		mediaurl: cvd,
-		deployedlink: "",
-		githublink: "",
+	// {
+	// 	id: "cvd-mobile",
+	// 	title: "Commodity Virtual Dashboard",
+	// 	slug: "cvd",
+	// 	shortdescrips:
+	// 		"A dashboard to manage commodity, suitable for agents and buyers",
+	// 	description:
+	// 		"A dashboard to manage commodity, suitable for agents and buyers, to display list of cash crops, locations, prices and analysis. This also displays market trends and market news as a means of updates.",
+	// 	mediaurl: cvd,
+	// 	deployedlink: "",
+	// 	githublink: "",
 
 		// links: [
 		// 	{
@@ -95,21 +95,21 @@ export const portfolioItems: PortfolioItem[] = [
 		// 	},
 		// ],
 
-		infoone:
-			"The Commodity Virtual Dashboard is designed to streamline the process of managing and monitoring various commodities. It provides real-time data and analytics, enabling users to make informed decisions based on current market trends. The dashboard is user-friendly and customizable, allowing agents and buyers to tailor the interface to their specific needs. With features such as price tracking, location mapping, and news updates, this tool is essential for anyone involved in the commodity market.",
-		infotwo:
-			"In addition to its core functionalities, the Commodity Virtual Dashboard offers advanced features such as predictive analytics and automated alerts. These features help users stay ahead of market fluctuations and respond quickly to changes. The dashboard also supports integration with other systems, making it a versatile solution for businesses of all sizes. Whether you are a small-scale trader or a large enterprise, the Commodity Virtual Dashboard can help you optimize your operations and maximize your profits.",
-		role: "",
-		iconLists: [
-			"/expo-svg.svg",
-			"/tailwindcss.svg",
-			"/typescript.svg",
-			"/react-logo.svg",
-			"/node.svg",
-		],
-		techstack: "React Native, Expo, Metro Bundler, Tailwind CSS, Node.js",
-		category: ["dashboard", "mobile-app", "web-app", "agriculture", "finance"],
-	},
+	// 	infoone:
+	// 		"The Commodity Virtual Dashboard is designed to streamline the process of managing and monitoring various commodities. It provides real-time data and analytics, enabling users to make informed decisions based on current market trends. The dashboard is user-friendly and customizable, allowing agents and buyers to tailor the interface to their specific needs. With features such as price tracking, location mapping, and news updates, this tool is essential for anyone involved in the commodity market.",
+	// 	infotwo:
+	// 		"In addition to its core functionalities, the Commodity Virtual Dashboard offers advanced features such as predictive analytics and automated alerts. These features help users stay ahead of market fluctuations and respond quickly to changes. The dashboard also supports integration with other systems, making it a versatile solution for businesses of all sizes. Whether you are a small-scale trader or a large enterprise, the Commodity Virtual Dashboard can help you optimize your operations and maximize your profits.",
+	// 	role: "",
+	// 	iconLists: [
+	// 		"/expo-svg.svg",
+	// 		"/tailwindcss.svg",
+	// 		"/typescript.svg",
+	// 		"/react-logo.svg",
+	// 		"/node.svg",
+	// 	],
+	// 	techstack: "React Native, Expo, Metro Bundler, Tailwind CSS, Node.js",
+	// 	category: ["dashboard", "mobile-app", "web-app", "agriculture", "finance"],
+	// },
 	{
 		id: "renew-edge",
 		title: "RenewEdge",

@@ -6,6 +6,7 @@ import gubtish from "@/public/gifs/gubtish.gif";
 import ap from "@/public/gifs/ap.gif";
 import gp from "@/public/gifs/gp.gif";
 import izu from "@/public/gifs/izu.gif";
+import huel from "@/public/gifs/huel.gif";
 
 import renewedge from "@/public/gifs/renewedge.gif";
 import type {Metadata} from "next";
@@ -37,6 +38,30 @@ export interface PortfolioItem {
 }
 
 export const portfolioItems: PortfolioItem[] = [
+{
+		id: "huel-medics",
+		title: "Huel Medics",
+		slug: "huel-meds",
+		description:
+			"With over 400 million meals sold and a million customers recommending us to friends and family, our community's love for Huel speaks for itself.",
+		shortdescrips:
+			"Here's why we're the No.1 Complete Food brand in the world.",
+		mediaurl: huel,
+		deployedlink: "https://huel-medics.vercel.app/",
+		githublink: "",
+		infoone:
+			"Complete nutrition, because every fire needs its fuel.",
+		infotwo:
+			"",
+		role: "Front-End Developer",
+		iconLists: [
+			"/next-logo.svg",
+			"/typescript.svg",
+			"/tailwindcss.svg",
+		],
+		techstack: "Next JS, Shad UI, Tailwind CSS, ",
+		category: ["web-app","technology", "innovation", "energy", "Medicals"],
+	},
 	{
 		id: "izu-soft",
 		title: "izusoft Technologies",

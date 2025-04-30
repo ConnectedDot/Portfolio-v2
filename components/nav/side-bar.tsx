@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import {Button} from "@/components/ui/button";
+import { Button } from "@/components/ui/button";
 import {
 	Card,
 	CardContent,
@@ -8,12 +8,12 @@ import {
 	CardHeader,
 	CardTitle,
 } from "@/components/ui/card";
-import {primaryNavItems} from "@/utils";
-import {usePathname} from "next/navigation";
-import {cn} from "@/lib/utils";
-import {useState} from "react";
-import {Github, Hash, PlusIcon} from "lucide-react";
-import {Dialog, DialogContent, DialogTrigger} from "../ui/dialog";
+import { primaryNavItems } from "@/utils";
+import { usePathname } from "next/navigation";
+import { cn } from "@/lib/utils";
+import { useState } from "react";
+import { Github, Hash, PlusIcon } from "lucide-react";
+import { Dialog, DialogContent, DialogTrigger } from "../ui/dialog";
 import AddProjectDialog from "../projects/add-project-dialog";
 import AddLabelDialog from "../labels/add-label-dialog";
 import X from "@/public/logo/x.svg";
@@ -43,7 +43,7 @@ export default function SideBar() {
 					{/* <UserProfile /> */}
 				</div>
 				<nav className="grid items-start px-1 text-sm font-medium lg:px-4">
-					{navItems.map(({name, icon, link, id}, idx) => (
+					{navItems.map(({ name, icon, link, id }, idx) => (
 						<div key={idx}>
 							{id && (
 								<div
@@ -66,7 +66,7 @@ export default function SideBar() {
 										"flex items-center text-left lg:gap-3 rounded-lg py-2 transition-all hover:text-primary justify-between w-full",
 										pathname === link ?
 											"active rounded-lg bg-primary/10 text-primary transition-all hover:text-primary"
-										:	"text-foreground "
+											: "text-foreground "
 									)}
 								>
 									<Link
@@ -127,7 +127,7 @@ export default function SideBar() {
 					<div className="flex items-center px-7 py-1">
 						<Image className="w-4 h-4 filter invert" alt="logo" src={GitHUb} />
 						<Link
-							href="https://github.com/ConnectedDot"
+							href="https://github.com/"
 							className="ml-3 text-md"
 							target="_blank"
 						>

@@ -87,7 +87,7 @@ export default function MobileNav({
 								/>
 
 								<Link
-									href="https://github.com/ConnectedDot"
+									href="https://github.com/"
 									className="ml-3 text-md"
 									target="_blank"
 								>

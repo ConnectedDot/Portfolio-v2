@@ -38,7 +38,7 @@ export interface PortfolioItem {
 }
 
 export const portfolioItems: PortfolioItem[] = [
-{
+	{
 		id: "huel-medics",
 		title: "Huel Medics",
 		slug: "huel-meds",
@@ -49,18 +49,12 @@ export const portfolioItems: PortfolioItem[] = [
 		mediaurl: huel,
 		deployedlink: "https://huel-medics.vercel.app/",
 		githublink: "",
-		infoone:
-			"Complete nutrition, because every fire needs its fuel.",
-		infotwo:
-			"",
+		infoone: "Complete nutrition, because every fire needs its fuel.",
+		infotwo: "",
 		role: "Front-End Developer",
-		iconLists: [
-			"/next-logo.svg",
-			"/typescript.svg",
-			"/tailwindcss.svg",
-		],
+		iconLists: ["/next-logo.svg", "/typescript.svg", "/tailwindcss.svg"],
 		techstack: "Next JS, Shad UI, Tailwind CSS, ",
-		category: ["web-app","technology", "innovation", "energy", "Medicals"],
+		category: ["web-app", "technology", "innovation", "energy", "Medicals"],
 	},
 	{
 		id: "izu-soft",
@@ -84,8 +78,7 @@ export const portfolioItems: PortfolioItem[] = [
 
 		infoone:
 			"Innovative software solutions that empower businesses to streamline operations, enhance productivity, and achieve their goals efficiently. Discover how our solutions can transform your business today.",
-		infotwo:
-			"We Transform Businesses with Cutting-Edge Solutions",
+		infotwo: "We Transform Businesses with Cutting-Edge Solutions",
 		role: "",
 		iconLists: [
 			"react-logo.svg",
@@ -98,7 +91,13 @@ export const portfolioItems: PortfolioItem[] = [
 			"/node.svg",
 		],
 		techstack: "React, NextJs, Tailwind CSS, Shadcn UI",
-		category: ["dashboard", "LAnding Page", "web-app", "technology", "Business"],
+		category: [
+			"dashboard",
+			"LAnding Page",
+			"web-app",
+			"technology",
+			"Business",
+		],
 	},
 	// {
 	// 	id: "cvd-mobile",
@@ -112,13 +111,13 @@ export const portfolioItems: PortfolioItem[] = [
 	// 	deployedlink: "",
 	// 	githublink: "",
 
-		// links: [
-		// 	{
-		// 		type: "visit website",
-		// 		href: "https://eldoraui.site/",
-		// 		  icon: <SquareTerminal className="size-3" />,
-		// 	},
-		// ],
+	// links: [
+	// 	{
+	// 		type: "visit website",
+	// 		href: "https://eldoraui.site/",
+	// 		  icon: <SquareTerminal className="size-3" />,
+	// 	},
+	// ],
 
 	// 	infoone:
 	// 		"The Commodity Virtual Dashboard is designed to streamline the process of managing and monitoring various commodities. It provides real-time data and analytics, enabling users to make informed decisions based on current market trends. The dashboard is user-friendly and customizable, allowing agents and buyers to tailor the interface to their specific needs. With features such as price tracking, location mapping, and news updates, this tool is essential for anyone involved in the commodity market.",
@@ -151,13 +150,9 @@ export const portfolioItems: PortfolioItem[] = [
 		infotwo:
 			"Our mission is to provide innovative renewable energy solutions that empower communities and protect the environment. We strive to reduce carbon footprints and promote sustainable living through our cutting-edge technology and dedicated team. Our vision is to lead the world in renewable energy solutions, creating a sustainable future for generations to come. We aim to be at the forefront of the green energy revolution, providing reliable and efficient energy solutions to our customers.",
 		role: "Front-End Developer",
-		iconLists: [
-			"/next-logo.svg",
-			"/typescript.svg",
-			"/tailwindcss.svg",
-		],
+		iconLists: ["/next-logo.svg", "/typescript.svg", "/tailwindcss.svg"],
 		techstack: "Next JS, Shad UI, Tailwind CSS, ",
-		category: ["web-app","technology", "innovation", "energy"],
+		category: ["web-app", "technology", "innovation", "energy"],
 	},
 	{
 		id: "kendra-lms",
@@ -281,7 +276,7 @@ export const portfolioItems: PortfolioItem[] = [
 		mediaurl: gp,
 		deployedlink:
 			"https://gp-calculator-theophilus-samuels-projects.vercel.app/",
-		githublink: "https://github.com/ConnectedDot/GP-Calculator/tree/develop",
+		githublink: "",
 		infoone:
 			"The GPA Calculator is a valuable tool for students to track their academic progress and plan their course schedules effectively. By entering their course grades and credit hours, students can calculate their GPA and monitor their performance over time. The calculator is user-friendly and intuitive, with clear instructions and helpful tips to guide users through the process. Whether you are a student, teacher, or academic advisor, the GPA Calculator is a useful resource for managing academic records.",
 		infotwo:
@@ -343,7 +338,7 @@ export const contactConfig = {
 };
 
 export const socialprofils = {
-	github: "https://github.com/ConnectedDot",
+	github: "https://github.com/",
 	facebook: "https://www.facebook.com/TheophilusSams?mibextid=ZbWKwL",
 	linkedin: "https://www.linkedin.com/in/theophilus-mcsamuel-6108091a6",
 	twitter: "https://twitter.com/mc_samuell.com",
@@ -370,9 +365,9 @@ export const introdata = {
 };
 
 const ORIGIN_URL =
-	process.env.NODE === "production" ?
-		"https://theophilus-sam.vercel.app/"
-	:	"http://localhost:3000";
+	process.env.NODE === "production"
+		? "https://theophilus-sam.vercel.app/"
+		: "http://localhost:3000";
 
 export const metadata: Metadata = {
 	title: "Thephilus Samuel | Portfolio",
@@ -413,7 +408,7 @@ export const DATA = {
 	github: [
 		{
 			title: "karthikmudunuri",
-			href: "https://github.com/karthikmudunuri",
+			href: "https://github.com/",
 			icon: "/github-logo.svg",
 			profile: "/me.jpeg",
 		},
@@ -560,7 +555,7 @@ export const DATA = {
 		social: {
 			GitHub: {
 				name: "GitHub",
-				url: "https://github.com/ConnectedDot",
+				url: "https://github.com/",
 				icon: Icons.github,
 				navbar: true,
 			},
@@ -706,7 +701,7 @@ export const DATA = {
 		"Committing Code and Crimes Against Open Source World A place where you can witness my caffeinated coding adventures and see just how much coffee it takes to fuel my commits. from my first `Hello World` to my latest breakthrough, and everything in between",
 	contributions: [
 		{
-			link: "https://github.com/karthikmudunuri/eldoraui",
+			link: "https://github.com/",
 			title: "eldora ui",
 			description:
 				"Eldora UI is a collection of re-usable components that you can copy and paste into your web apps. It primarily features components, blocks, and templates.",
@@ -714,7 +709,7 @@ export const DATA = {
 			forks: "29",
 		},
 		{
-			link: "https://github.com/karthikmudunuri/saas-landing-page-template",
+			link: "https://github.com/",
 			title: "saas-landing-page-template",
 			description:
 				"Template for saas landing page with dark theme using Next.js 14, React, TailwindCSS, Framer motion and Eldora UI.",
@@ -722,7 +717,7 @@ export const DATA = {
 			forks: "13",
 		},
 		{
-			link: "https://github.com/karthikmudunuri/portfolio-template",
+			link: "https://github.com/",
 			title: "portfolio-template",
 			description:
 				"Minimalist developer portfolio using Next.js 14, React, TailwindCSS, Framer motion and Eldora UI.",
@@ -730,7 +725,7 @@ export const DATA = {
 			forks: "18",
 		},
 		{
-			link: "https://github.com/shuding/nextra",
+			link: "https://github.com/",
 			title: "nextra",
 			description:
 				"Simple, powerful and flexible site generation framework with everything you love from Next.js.",

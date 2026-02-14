@@ -1,55 +1,73 @@
-# Todovex - An Open Source AI-Powered Todoist Clone
+# Welcome to your Lovable project
 
+## Project info
 
-Built with the Next.js 14 App Router, Convex, React, Next.js Auth V5 i.e. Auth.js, Google Sign in, ShadCN UI library, React Hook Forms, TypeScript, OPenAI, TailwindCSS and more
+**URL**: https://lovable.dev/projects/1169db3a-30f3-49bc-bd0b-9cda42ae0ebe
 
+## How can I edit this code?
 
-![Project Image](https://www.todovex.ai/og-image.png)
+There are several ways of editing your application.
 
-## Features
-- 🌐 Next.js & Server actions
-- 🤖 AI Suggest Missing Tasks and Sub-Tasks using Open AI
-- 🎨 Beautiful components using Shadcn UI
-- 💅 Slick designs using TailwindCSS
-- 🌟 Database using Convex
-- 🎭 Amazing icons thanks to Lucide React
-- 🔐 Auth using Next Auth aka Auth.js
-- 📋 Typescript Runtime Validation using Zod
-- 🚀 Form Validation using React Hook Forms
-- ❤️ Add Task Dialog popup
-- 💔 Deletion of Tasks Dialog popup
-- ✚ Addition of Sub-Tasks
-- 💔 Deletion of Sub-Tasks Dialog popup
-- 📜 Creation of New Projects and Labels
-- 📜 Deletion of New Projects and Labels
-- 🔄 Sidebar Navigation
-- 🏆 Vector Search your Tasks
- - 📱Full mobile responsiveness 
-- 🛬 Landing page 🛬
-- 🚀 Deployment on Vercel
-- 📱 Mobile responsiveness
-- 🎁 ...much more
+**Use Lovable**
 
-## Getting started
+Simply visit the [Lovable Project](https://lovable.dev/projects/1169db3a-30f3-49bc-bd0b-9cda42ae0ebe) and start prompting.
 
-To get started with this project, you need to do the following,
-1. Please fork the repo
-2. Copy the .env.example variables into a separate .env.local file
-3. Create the credentials mentioned in the Youtube tutorial to get started!
+Changes made via Lovable will be committed automatically to this repo.
 
-## 1. How to fork and clone
-- If you want to make changes and contribute to this project, you'll need to create a fork first.  Forking creates a copy of the original project in your own GitHub account. This lets you experiment with edits without affecting the main project.
+**Use your preferred IDE**
 
-- Look for the "Fork" button in the top right corner of the project on GitHub. Clicking it will create a copy under your account with the same name.
-![image](https://github.com/kulkarniankita/todoist-clone-todovex/assets/2559673/f10c45ab-e2aa-4334-b32a-dcaa2873241a)
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-- After forking the project, you can clone it just like you usually do.
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
+Follow these steps:
 
-## Acknowledgements
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-- [Convex](https://convex.dev/c/todovex) for making this project possible
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-## License
+# Step 3: Install the necessary dependencies.
+npm i
 
-[MIT](https://choosealicense.com/licenses/mit/)
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
+
+**Edit a file directly in GitHub**
+
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/1169db3a-30f3-49bc-bd0b-9cda42ae0ebe) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
